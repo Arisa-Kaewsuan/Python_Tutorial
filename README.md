@@ -1,4 +1,4 @@
-# Python_Tutorial
+# Python_Tutorial 🚀
 
 This is my path to training the basics of programming with Python !
 
@@ -16,3 +16,9 @@ access example : Practice_B > src > B1.py
 - Practice H1 - H10 : Arrray / sum / min / max / sort
 - Practice J1 - J4  : statistics (avg / mode / medien)
 - Exercise1_01_E5   : applied problems
+
+> ⚡️ Do this exercise using this CheetSheet !!!
+
+![Logo](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/3976/2019/01/15232501/Python-Cheat-Sheet-2.jpg)
+
+![Logo](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/3976/2019/01/15232501/Python-Cheat-Sheet-2.jpg)
