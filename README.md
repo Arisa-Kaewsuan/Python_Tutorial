@@ -43,13 +43,18 @@
      
    -  &nbsp; Array &nbsp;:&nbsp; ```python ไม่มี Array แต่สามารถใช้ List เป็น Array ได้``` &nbsp;&nbsp; ```CREATE : cars = ["Ford", "Volvo", "BMW"]``` &nbsp;&nbsp; ```ACCESS : x = cars[0]``` &nbsp;&nbsp; ```ARRAY-LENGHT : x = len(cars)``` &nbsp;&nbsp; ```EDIT : cars[0] = "Toyota"``` &nbsp;&nbsp; ```INSERT : cars.append("Honda")``` <br/>&nbsp;&nbsp; ```DELETE : cars.remove("Volvo")```
      
-   -  &nbsp; Tuple &nbsp;:&nbsp; ```CREATE : mytuple = ("apple", "banana", "cherry")``` &nbsp;&nbsp; ```CHECK TYPE : print(type(thistuple))``` <br/>&nbsp;&nbsp; ```ACCESS : print(thistuple[1]) OR print(thistuple[2:5])``` &nbsp;&nbsp; ```EDIT : y[1] = "kiwi"``` &nbsp;&nbsp; ```ADD : y.append("orange")``` <br/>&nbsp;&nbsp; ```DELETE : y.remove("apple")``` <br/>&nbsp;&nbsp; ```ARRAY-LOOP : for i in range(len(thistuple)):``` &nbsp;&nbsp; ```ARRAY-LOOP : for i in range(len(thistuple)):``` &nbsp;&nbsp;
+   -  &nbsp; Tuple &nbsp;:&nbsp; ```CREATE : mytuple = ("apple", "banana", "cherry")``` &nbsp;&nbsp; ```CHECK TYPE : print(type(thistuple))``` <br/>&nbsp;&nbsp; ```ACCESS : print(thistuple[1]) OR print(thistuple[2:5])``` &nbsp;&nbsp; ```EDIT : y[1] = "kiwi"``` &nbsp;&nbsp; ```ADD : y.append("orange")``` <br/>&nbsp;&nbsp; ```DELETE : y.remove("apple")``` &nbsp;&nbsp; ```ARRAY-LOOP : for i in range(len(thistuple)):``` 
      
-   -  &nbsp; List &nbsp;:&nbsp;
+   -  &nbsp; List &nbsp;:&nbsp; ```CREATE : mylist = ["apple", "banana", "cherry"]``` &nbsp;&nbsp; ```ACCESS : print(thislist[1]) OR print(thislist[2:5])``` <br/>&nbsp;&nbsp; ```CHECK-IF-EXIST-IN-LIST : if "apple" in thislist: print("Yes")``` &nbsp;&nbsp; ```EDIT : thislist[1] = "blackcurrant"``` <br/>&nbsp;&nbsp; ```2LIST-CONCAT : thislist.extend(thistuple)``` &nbsp;&nbsp; ```ADD : thislist.insert(2, "watermelon") OR thislist.append("orange")``` 
+     
    -  &nbsp; Dictionary &nbsp;:&nbsp;
+     
    -  &nbsp; Set &nbsp;:&nbsp;
+     
    -  &nbsp; String &nbsp;:&nbsp;
+     
    -  &nbsp; lampda &nbsp;:&nbsp;
+     
    -  &nbsp; File &nbsp;:&nbsp;
 
 <br/>
