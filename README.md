@@ -26,7 +26,7 @@
 
 ### [1.&nbsp;) &nbsp;&nbsp; Python &nbsp;Syntax 🔗](https://www.w3schools.com/python/)
 -  &nbsp; PYTHON &nbsp;BASIC
-   -  &nbsp; syntax &nbsp;:&nbsp; ```indent สำคัญมาก เพราะ ไม่ใช้ {} และ ; ในการแบ่งบล็อคโค้ดเหมือนภาษาอื่น``` &nbsp;&nbsp; ```หลังเงื่อนไข (condition) มี : (colon)เสมอ เช่น เงื่อนไข if-else , เงื่อนไข loop``` &nbsp;&nbsp; ```เป็น Dynamic Programming ไม่ต้องระบุ Data type เหมือนภาษา java```
+   -  &nbsp; syntax &nbsp;:&nbsp; ```indent สำคัญมาก เพราะ ไม่ใช้ {} และ ; ในการแบ่งบล็อคโค้ดเหมือนภาษาอื่น``` <br/>&nbsp;&nbsp; ```หลังเงื่อนไข (condition) มี : (colon)เสมอ เช่น เงื่อนไข if-else , เงื่อนไข loop``` <br/>&nbsp;&nbsp; ```เป็น Dynamic Programming ไม่ต้องระบุ Data type เหมือนภาษา java```
    -  &nbsp; input &nbsp;:&nbsp; ```x = input('Enter your name:')```
    -  &nbsp; output &nbsp;:&nbsp; ```print("Hello World !")```
    -  &nbsp; Math &nbsp;:&nbsp; ```x = min(5, 10, 25)``` &nbsp;&nbsp; ```x = max(5, 10, 25)``` &nbsp;&nbsp; ```x = pow(4, 3)``` &nbsp;&nbsp; ```x = math.sqrt(64)``` &nbsp;&nbsp; ```x = math.pi``` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```y = math.floor(1.4)```&nbsp;&nbsp; ```x = math.ceil(1.4)```
