@@ -46,12 +46,8 @@
    -  &nbsp; Tuple &nbsp;:&nbsp; ```CREATE : mytuple = ("apple", "banana", "cherry")``` &nbsp;&nbsp; ```CHECK TYPE : print(type(thistuple))``` <br/>&nbsp;&nbsp; ```ACCESS : print(thistuple[1]) OR print(thistuple[2:5])``` &nbsp;&nbsp; ```EDIT : y[1] = "kiwi"``` &nbsp;&nbsp; ```ADD : y.append("orange")``` <br/>&nbsp;&nbsp; ```DELETE : y.remove("apple")``` &nbsp;&nbsp; ```ARRAY-LOOP : for i in range(len(thistuple)):``` 
      
    -  &nbsp; List &nbsp;:&nbsp; ```CREATE : mylist = ["apple", "banana", "cherry"]``` &nbsp;&nbsp; ```ACCESS : print(thislist[1]) OR print(thislist[2:5])``` <br/>&nbsp;&nbsp; ```CHECK-IF-EXIST-IN-LIST : if "apple" in thislist: print("Yes")``` &nbsp;&nbsp; ```EDIT : thislist[1] = "blackcurrant"``` <br/>&nbsp;&nbsp; ```2LIST-CONCAT : thislist.extend(thistuple)``` &nbsp;&nbsp; ```ADD : thislist.insert(2, "watermelon") OR thislist.append("orange")``` 
-     
-   -  &nbsp; Dictionary &nbsp;:&nbsp;
-     
-   -  &nbsp; Set &nbsp;:&nbsp;
-     
-   -  &nbsp; String &nbsp;:&nbsp;
+  
+   -  &nbsp; String &nbsp;:&nbsp; ```print(len(str))``` &nbsp;&nbsp; ```print("free" in txt)``` &nbsp;&nbsp; ```print("expensive" not in txt)``` &nbsp;&nbsp; ```SLICING : print(b[2:5])``` <br/>&nbsp;&nbsp; ```ลบ whitespacce หัวท้าย : print(a.strip())``` &nbsp;&nbsp; ```print(str.replace("H", "J"))``` &nbsp;&nbsp; ```แยกคำด้วย , : print(str.split(","))``` 
      
    -  &nbsp; lampda &nbsp;:&nbsp;
      
