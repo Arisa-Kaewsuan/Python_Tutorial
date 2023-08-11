@@ -11,11 +11,12 @@
 
 - &nbps; เริ่มใช้ Python ยังไง ?
 
-        1.  install python  :  คือ โปรแกรมแปลภาษาไพธอนเป็นภาษาเครื่อง เราก็จะสามารถเขียนไพธอนด้วย editor/IDE แล้วรันดูผลลัพธ์ได้
+        1.  install python  :  คือ โปรแกรมแปลภาษาไพธอนเป็นภาษาเครื่อง เราก็จะสามารถเขียนไพธอนด้วย editor/IDE
+            แล้วรันดูผลลัพธ์ได้
   
-        2.  install editor  :  มีให้เลือกใช้เยอะมาก เช่น vscode (นิยมใช้สำหรับผู้เริ่มต้น), pycharm , Google colab (นิยมใช้สำหรับผู้เริ่มต้น
-            สะดวกมากใช้บนเว็บได้เลย แค่มีบัญชี Google ), sublimetext (สำหรับคนใช้ mac) , Jupyter (นิยมใช้ในงาน data science) ,
-            Spyder (อาจารย์ชอบใช้สอนตามมหาลัยสาย data science ทำ ML)
+        2.  install editor  :  มีให้เลือกใช้เยอะมาก เช่น vscode (นิยมใช้สำหรับผู้เริ่มต้น), pycharm , Google colab
+            (นิยมใช้สำหรับผู้เริ่มต้น สะดวกมากใช้บนเว็บได้เลย แค่มีบัญชี Google ), sublimetext (สำหรับคนใช้ mac) ,
+            Jupyter (นิยมใช้ในงาน data science) , Spyder (อาจารย์ชอบใช้สอนตามมหาลัยสาย data science ทำ ML)
 
         โดยภาษา Python จะสามารถ Run ได้ 2 แบบ
         1.  Interpreter  :  การรันแบบ interpret คือการ run ที่ละบรรทัด เหมาะใช้ในงาน Data science
