@@ -26,14 +26,14 @@
 
 ### [1.&nbsp;) &nbsp;&nbsp; Python &nbsp;Syntax 🔗](https://www.w3schools.com/python/)
 -  &nbsp; PYTHON &nbsp;BASIC
+   -  &nbsp; syntax &nbsp;:&nbsp; ```indent สำคัญมาก เพราะ ไม่ใช้ {} และ ; ในการแบ่งบล็อคโค้ดเหมือนภาษาอื่น``` &nbsp;&nbsp; ```หลังเงื่อนไข (condition) มี : (colon)เสมอ เช่น เงื่อนไข if-else , เงื่อนไข loop``` &nbsp;&nbsp; ```เป็น Dynamic Programming ไม่ต้องระบุ Data type เหมือนภาษา java```
    -  &nbsp; input &nbsp;:&nbsp; ```x = input('Enter your name:')```
    -  &nbsp; output &nbsp;:&nbsp; ```print("Hello World !")```
    -  &nbsp; Math &nbsp;:&nbsp; ```x = min(5, 10, 25)``` &nbsp;&nbsp; ```x = max(5, 10, 25)``` &nbsp;&nbsp; ```x = pow(4, 3)``` &nbsp;&nbsp; ```x = math.sqrt(64)``` &nbsp;&nbsp; ```x = math.pi``` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```y = math.floor(1.4)```&nbsp;&nbsp; ```x = math.ceil(1.4)```
-   -  &nbsp; condition &nbsp;:&nbsp;
-   -  &nbsp; ternary condition &nbsp;:&nbsp;
-   -  &nbsp; loop &nbsp;:&nbsp;
-   -  &nbsp; ในภาษา python มีชนิดข้อมูล (Data type) อะไรบ้าง ? &nbsp;:&nbsp;
-   -  &nbsp; Array &nbsp;:&nbsp;
+   -  &nbsp; condition &nbsp;:&nbsp; ```if b > a:``` &nbsp;&nbsp; ```elif a == b:``` &nbsp;&nbsp; ```else:``` &nbsp;&nbsp; ``` TERNARY OPERATOR : print("A") if a > b else print("B")```
+   -  &nbsp; loop &nbsp;:&nbsp; ```while``` &nbsp;&nbsp; ```ARRAY-LOOP : for x in array:``` &nbsp;&nbsp; ```break``` &nbsp;&nbsp; ```continue```
+   -  &nbsp; ในภาษา python มีชนิดข้อมูล (Data type) อะไรบ้าง ? &nbsp;:&nbsp;  ```String``` &nbsp;&nbsp; ```Tuple``` &nbsp;&nbsp; ```List``` &nbsp;&nbsp; ```Set``` &nbsp;&nbsp; ```Dictionary``` &nbsp;&nbsp; ```Boolean``` &nbsp;&nbsp; ```Integer```&nbsp;&nbsp; ```Double```
+   -  &nbsp; Array &nbsp;:&nbsp; ```python ไม่มี Array แต่สามารถใช้ List เป็น Array ได้``` &nbsp;&nbsp; ```CREATE : cars = ["Ford", "Volvo", "BMW"]``` &nbsp;&nbsp; ```ACCESS : x = cars[0]``` &nbsp;&nbsp; ```ARRAY-LENGHT : x = len(cars)``` &nbsp;&nbsp; ```EDIT : cars[0] = "Toyota"``` &nbsp;&nbsp; ```INSERT : cars.append("Honda")``` <br/>&nbsp;&nbsp; ```DELETE : cars.remove("Volvo")``` 
    -  &nbsp; Tuple &nbsp;:&nbsp;
    -  &nbsp; List &nbsp;:&nbsp;
    -  &nbsp; Dictionary &nbsp;:&nbsp;
