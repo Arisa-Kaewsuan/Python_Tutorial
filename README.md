@@ -78,5 +78,6 @@
 
 <br/><br/>
 
-### 3.&nbsp;) &nbsp;&nbsp; Python &nbsp;Exercise 🔗
+### 3.&nbsp;) &nbsp;&nbsp; Python &nbsp;Exercise 
+- &nbsp; Beginner &nbsp;Level &nbsp;( เป็นโจทย์เหมาะสำหรับฝึกใช้คำสั่งพื้นฐานให้คล่อง ให้คุ้นเคยกับ syntax ) &nbsp;:&nbsp; [w3resource](https://www.w3resource.com/python-exercises/tkinter/index-basic.php) &nbsp;&nbsp; [geeksforgeeks](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/)
 
