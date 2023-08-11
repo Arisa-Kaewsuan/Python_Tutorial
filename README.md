@@ -65,6 +65,8 @@
     
   - &nbsp; Polymorphism &nbsp;:&nbsp;
  
+  - &nbsp; OOP Design &nbsp;:&nbsp; คือ การออกแบบโปรแกรมแบบ OOP ทำยังไง 
+ 
 <br/>
 
 - &nbsp; PYTHON &nbsp;DATABASE
