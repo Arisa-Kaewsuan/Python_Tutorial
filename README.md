@@ -49,7 +49,7 @@
   
    -  &nbsp; String &nbsp;:&nbsp; ```print(len(str))``` &nbsp;&nbsp; ```print("free" in txt)``` &nbsp;&nbsp; ```print("expensive" not in txt)``` &nbsp;&nbsp; ```SLICING : print(b[2:5])``` <br/>&nbsp;&nbsp; ```ลบ whitespacce หัวท้าย : print(a.strip())``` &nbsp;&nbsp; ```print(str.replace("H", "J"))``` &nbsp;&nbsp; ```แยกคำด้วย , : print(str.split(","))``` 
      
-   -  &nbsp; lampda &nbsp;:&nbsp;
+   -  &nbsp; lampda &nbsp;:&nbsp; ```คือฟังก์ชั่นที่ไม่ต้องประกาศชื่อ เป็นการเขียนฟังก์ชั่นแบบ shorthand คล้ายๆ arrow function ในภาษา js แต่มีได้แค่ expression เดียว``` &nbsp;&nbsp; ```รับ a,b เข้ามาหาผลคูณเก็บใน x : x = lambda a, b : a * b``` 
      
    -  &nbsp; File &nbsp;:&nbsp;
 
