@@ -26,9 +26,9 @@
 
 ### [1.&nbsp;) &nbsp;&nbsp; Python &nbsp;Syntax 🔗](https://www.w3schools.com/python/)
 -  &nbsp; PYTHON &nbsp;BASIC
-   -  &nbsp; input &nbsp;:&nbsp;
-   -  &nbsp; output &nbsp;:&nbsp;
-   -  &nbsp; Math &nbsp;:&nbsp;
+   -  &nbsp; input &nbsp;:&nbsp; ```x = input('Enter your name:')```
+   -  &nbsp; output &nbsp;:&nbsp; ```print("Hello World !")```
+   -  &nbsp; Math &nbsp;:&nbsp; ```x = min(5, 10, 25)``` &nbsp;&nbsp; ```x = max(5, 10, 25)``` &nbsp;&nbsp; ```x = pow(4, 3)``` &nbsp;&nbsp; ```x = math.sqrt(64)``` &nbsp;&nbsp; ```x = math.pi``` <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ```y = math.floor(1.4)```&nbsp;&nbsp; ```x = math.ceil(1.4)```
    -  &nbsp; condition &nbsp;:&nbsp;
    -  &nbsp; ternary condition &nbsp;:&nbsp;
    -  &nbsp; loop &nbsp;:&nbsp;
