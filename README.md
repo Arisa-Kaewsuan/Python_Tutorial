@@ -23,7 +23,7 @@
 
 <br/><br/>
 
-### [1.&nbsp;) &nbsp;&nbsp; Python &nbps;Syntax 🔗](https://www.w3schools.com/python/)
+### [1.&nbsp;) &nbsp;&nbsp; Python &nbsp;Syntax 🔗](https://www.w3schools.com/python/)
 -  &nbsp; PYTHON &nbsp;BASIC
    -  &nbsp; input &nbsp;:&nbsp;
    -  &nbsp; output &nbsp;:&nbsp;
@@ -78,5 +78,5 @@
 
 <br/><br/>
 
-### 3.&nbsp;) &nbsp;&nbsp; Python &nbps;Exercise 🔗
+### 3.&nbsp;) &nbsp;&nbsp; Python &nbsp;Exercise 🔗
 
