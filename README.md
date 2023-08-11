@@ -63,7 +63,7 @@
     
   - &nbsp; Inheritance &nbsp;:&nbsp; ```CREATE : class Student(Person):``` &nbsp;&nbsp; ```เรียกใช้ CLASS : p1 = Person("John")``` <br/>&nbsp;&nbsp; ```CONSTRUCTOR ต้องระบุ PARAMETER ทุกตัวที่ superclass รับมาคลาสลูกก็ต้องมี : def __init__(self, fname, lname):super().__init__(fname, lname)``` 
     
-  - &nbsp; Polymorphism &nbsp;:&nbsp;
+  - &nbsp; Polymorphism &nbsp;:&nbsp; 
  
   - &nbsp; OOP Design &nbsp;:&nbsp; คือ การออกแบบโปรแกรมแบบ OOP ทำยังไง 
  
