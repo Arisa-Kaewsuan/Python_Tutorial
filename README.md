@@ -87,4 +87,4 @@
   - [edabit](https://edabit.com/challenge/rZToTkR5eB9Zn4zLh) &nbsp;:&nbsp; เลือกระดับได้ คล้ายๆ leetcode เหมาะใช้ฝึก interview coding เตรียมตัวก่อนไปสัมภาษณ์งาน
 
 - &nbsp; Advanced &nbsp;Level &nbsp;( เป็นการทำ Project อาจจะ opensource ) &nbsp;:&nbsp;
-  - [hyperskill](https://hyperskill.org/projects/80?category=1&track=2&gutm_medium=cpc&gutm_source=google&gutm_campaign=13433376885&gutm_content=594036037356&gclid=Cj0KCQjwuNemBhCBARIsADp74QRhGMr3OUYpRmbDaBxkOCLyd2tuNu0d9UJzk88bVbDyUxbtsf8dUiUaAh3AEALw_wcB&_ga=2.127611268.865584163.1691759619-1870939886.1691759619&_gl=1%2apokarv%2a_ga%2aMTg3MDkzOTg4Ni4xNjkxNzU5NjE5%2a_ga_9J976DJZ68%2aMTY5MTc1OTYxOS4xLjAuMTY5MTc2MDQwMy4wLjAuMA..)&nbsp;:&nbsp; พาทำโปรเจคน่าสนใจ เช่น Password Hacker (Python) แต่ไม่ฟรี 
+  - [hyperskill](https://hyperskill.org/tracks/2/projects)&nbsp;:&nbsp; พาทำโปรเจคน่าสนใจ เช่น Password Hacker (Python) แต่ไม่ฟรี 
