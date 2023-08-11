@@ -81,3 +81,8 @@
 ### 3.&nbsp;) &nbsp;&nbsp; Python &nbsp;Exercise 
 - &nbsp; Beginner &nbsp;Level &nbsp;( เป็นโจทย์เหมาะสำหรับฝึกใช้คำสั่งพื้นฐานให้คล่อง ให้คุ้นเคยกับ syntax ) &nbsp;:&nbsp; [w3resource](https://www.w3resource.com/python-exercises/tkinter/index-basic.php) &nbsp;&nbsp; [geeksforgeeks](https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/)
 
+- &nbsp; Intermediate &nbsp;Level &nbsp;( เป็นโจทย์ที่ทำให้เราได้ฝึกเอาพื้นฐานมาประยุกต์ใช้สร้าง Product จริงๆ ) &nbsp;:&nbsp;
+  - [practicepython](https://www.practicepython.org/)&nbsp;:&nbsp; โจทย์ส่วนมากเป็นเกม เช่น tic tac toe มีอธิบายโค้ด เหมาะใช้ฝึกอ่านทำความเข้าใจวิธีเขียนโค้ดของคนอื่น เพื่อมาประยุกต์ใช้ 
+  - [hackerrank](https://www.hackerrank.com/domains/python?filters%5Bstatus%5D%5B%5D=unsolved&filters%5Bdifficulty%5D%5B%5D=medium) &nbsp;:&nbsp; เลือกระดับได้ คล้ายๆ leetcode เหมาะใช้ฝึก interview coding เตรียมตัวก่อนไปสัมภาษณ์งาน 
+  - [edabit](https://edabit.com/challenge/rZToTkR5eB9Zn4zLh) &nbsp;:&nbsp; เลือกระดับได้ คล้ายๆ leetcode เหมาะใช้ฝึก interview coding เตรียมตัวก่อนไปสัมภาษณ์งาน
+
