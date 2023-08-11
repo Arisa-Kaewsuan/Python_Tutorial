@@ -56,9 +56,13 @@
 <br/>
 
 - &nbsp; PYTHON &nbsp;OOP
-  - &nbsp; Function &nbsp;:&nbsp;
-  - &nbsp; Class &nbsp;:&nbsp;
-  - &nbsp; Inheritance &nbsp;:&nbsp;
+  - &nbsp; Function &nbsp;:&nbsp; ```CREATE : def my_function():``` &nbsp;&nbsp; ```เรียกใช้ FUNCTION : my_function()``` 
+    
+  - &nbsp; Class &nbsp;:&nbsp; ```CREATE : class Person:``` &nbsp;&nbsp; ```CONSTRUCTOR : def __init__(self, name):
+    self.name = name``` <br/>&nbsp;&nbsp; ```เรียกใช้ CLASS : p1 = Person("John")``` &nbsp;&nbsp; ```ใช้ PARAMETER ที่ CLASS รับมา : print(p1.name)``` <br/>&nbsp;&nbsp; ```ใช้ PARAMETER ที่ CLASS รับมาใน FUNCTION ต้องมี self.: def welcome(self):print("Welcome", self.firstname)```
+    
+  - &nbsp; Inheritance &nbsp;:&nbsp; ```CREATE : class Student(Person):``` &nbsp;&nbsp; ```เรียกใช้ CLASS : p1 = Person("John")``` <br/>&nbsp;&nbsp; ```CONSTRUCTOR ต้องระบุ PARAMETER ทุกตัวที่ superclass รับมาคลาสลูกก็ต้องมี : def __init__(self, fname, lname):super().__init__(fname, lname)``` 
+    
   - &nbsp; Polymorphism &nbsp;:&nbsp;
  
 <br/>
