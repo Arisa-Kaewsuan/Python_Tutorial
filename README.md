@@ -56,7 +56,7 @@
 <br/>
 
 - &nbsp; PYTHON &nbsp;OOP &nbsp;:&nbsp;<br/>
-  > ควรมีพื้นฐาน OOP รู้ว่า OOP คืออะไร ดียังไง ทำไมควรใช้ OOP ? , การเขียนโปรแกรมแบบ OOP ทำยังไง ใช้อะไร ? --- object(class) / function / inheritance / polymorphism / overriding / overloading คืออะไร ? , เราจะออกแบบโปรแกรมแบบ OOP ได้ยังไง ? , . . . เพราะ concept มันเหมือนกัน แค่ใช้ syntax ที่ต่างกัน [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า Java_OOP]()
+  > ควรมีพื้นฐาน OOP รู้ว่า OOP คืออะไร ดียังไง ทำไมควรใช้ OOP ? , การเขียนโปรแกรมแบบ OOP ทำยังไง ใช้อะไร ? --- object(class) / function / inheritance / polymorphism / overriding / overloading คืออะไร ? , เราจะออกแบบโปรแกรมแบบ OOP ได้ยังไง ? , . . . เพราะ concept มันเหมือนกัน แค่ใช้ syntax ที่ต่างกัน [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า Java_OOP_Project](https://github.com/Arisa-Kaewsuan/Java_OOP_Project)
   - &nbsp; Function &nbsp;:&nbsp; ```CREATE : def my_function():``` &nbsp;&nbsp; ```เรียกใช้ FUNCTION : my_function()``` 
     
   - &nbsp; Class &nbsp;:&nbsp; ```CREATE : class Person:``` &nbsp;&nbsp; ```CONSTRUCTOR : def __init__(self, name):
