@@ -70,7 +70,7 @@
 <br/>
 
 - &nbsp; PYTHON &nbsp;DATABASE &nbsp;:&nbsp; ควรมีพื้นฐาน SQL , รู้ว่าฐานข้อมูลมีกี่แบบ , ออกแบบฐานข้อมูลยังไง , รู้ศัพท์เทคนิคเบื้องต้น , . . . ซึ่งเป็นความรู้พื้นฐานเกี่ยวกับ 
- Database  เพราะ ตรงนี้จะเป็นการพูดถึงการใช้ tool ถ้าไม่มีพื้นฐานจะงง [&nbsp;>>&nbsp;อ่านได้ในหน้า SQL]()
+ Database  เพราะ ตรงนี้จะเป็นการพูดถึงการใช้ tool ถ้าไม่มีพื้นฐานจะงง [&nbsp;>>&nbsp;อ่านได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)
   - &nbsp; MySQL
 
             1.  โหลด API/MySQL Driver ทีชื่อ MySQL Connector แนะนำให้โหลดผ่าน PIP
