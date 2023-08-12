@@ -87,7 +87,7 @@
 
                 2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน database นั้นด้วยคำสั่ง
                      SQL ได้แล้ว โดยต้องใช้ method cursor กับ method execute ในการเขียนคำสั่ง SQL
-    > ```ตัวอย่าง : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Create Table ชื่อ customers มี column ชื่อ id เป็น primary key``` <br/>
+    > ตัวอย่างที่ 1 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Create Table ชื่อ customers มี column ชื่อ id เป็น primary key <br/>
     > ```
     >   import mysql.connector
     > 
@@ -100,6 +100,30 @@
     > 
     >   mycursor = mydb.cursor()
     >   mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+    > ```
+    <br/>
+    
+    > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  <br/>
+    > ```
+    >   import mysql.connector
+    > 
+    >   mydb = mysql.connector.connect(
+    >   host="localhost",
+    >   user="yourusername",
+    >   password="yourpassword",
+    >   database="mydatabase"
+    >   )
+    >
+    >   mycursor = mydb.cursor()
+    >
+    >   sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
+    >   val = [ ('Peter', 'Lowstreet 4'),
+    >           ('Amy', 'Apple st 652'),
+    >           ('Hannah', 'Mountain 21') ]
+    >
+    >   mycursor.executemany(sql, val)
+    >   mydb.commit()
+    >   print(mycursor.rowcount, "was inserted.")
     > ```
     <br/>
 
