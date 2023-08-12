@@ -158,17 +158,9 @@
   - &nbsp; MongoDB &nbsp;:&nbsp;<br/>
     > ควรมีพื้นฐาน รู้ว่า mongoDB คืออะไร , มันเก็บข้อมูลแบบไหน , รู้ศัพท์เกี่ยวกับ mongoDB เพราะมันใช้คำเรียกต่างกันแต่จริงๆก็คืออันเดียวกันกับใน database อื่นๆ เช่น mysql ช่วยให้เราเข้าใจมากขึ้นเวลาใช้งาน [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)<br/>
 
-            1.  install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม
-    > ```python -m pip install pymongo``` <br/>
-    
-            2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
-                2.1  import คลาส pymongo ที่เรา install เมื่อกี้มา เพื่อที่จะสามารถใช้ คำสั่งต่างๆ(method)
-                     ภายในคลาสได้
-    
-                2.2  connect database ด้วยคำสั่ง .MongoClient() กำหนด URL localhost
-    > ```myclient = pymongo.MongoClient("mongodb://localhost:27017/")``` <br/>
-
-                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ...
+     1. &nbsp; install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม  &nbsp;:&nbsp; <br/>```python -m pip install pymongo``` 
+     2. &nbsp; connect database &nbsp;:&nbsp; ```myclient = pymongo.MongoClient("mongodb://localhost:27017/")``` <br/>
+     3. &nbsp; เชื่อมต่อฐานข้อมูลแล้วก็สามารถเขียนคำสั่ง insert / update / find / delete / drop ... ได้  [ดูเพิ่มเติมที่นี่](https://www.w3schools.com/python/python_mongodb_insert.asp)
  
 <br/><br/>
 
