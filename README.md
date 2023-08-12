@@ -9,7 +9,7 @@
         4.  ใช้ในงานสาย IoT (Internet of Thing)  :  Arduino , ทำ Robot , Raspberry pi
         5.  ใช้ทำ web  :  ใช้ library เช่น Django , Flask
 
-- &nbps; เริ่มใช้ Python ยังไง ?
+- &nbsp; เริ่มใช้ Python ยังไง ?
 
         1.  install python  :  คือ โปรแกรมแปลภาษาไพธอนเป็นภาษาเครื่อง เราก็จะสามารถเขียนไพธอนด้วย editor/IDE
             แล้วรันดูผลลัพธ์ได้
