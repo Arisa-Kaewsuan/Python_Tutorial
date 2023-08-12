@@ -87,7 +87,7 @@
 
                 2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน database นั้นด้วยคำสั่ง
                      SQL ได้แล้ว โดยต้องใช้ method cursor กับ method execute ในการเขียนคำสั่ง SQL
-    > ตัวอย่างที่ 1 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Create Table ชื่อ customers มี column ชื่อ id เป็น primary key <br/>
+    > ตัวอย่างที่ 1 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Create Table ชื่อ customers มี column ชื่อ id เป็น primary key &nbsp;&nbsp;&nbsp;⚡️ &nbsp;การ [Drop Table](https://www.w3schools.com/python/python_mysql_drop_table.asp) ก็ใช้ pattern นี้ <br/>
     > ```
     >   import mysql.connector
     > 
@@ -103,7 +103,7 @@
     > ```
     <br/>
     
-    > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  &nbsp;&nbsp;&nbsp;⚡️ &nbsp;การ [Update](https://www.w3schools.com/python/python_mysql_update.asp) ข้อมูลใน Table  และ การ [Delete](https://www.w3schools.com/python/python_mysql_delete.asp) ก็ใช้ pattern และ method commit() แบบนี้<br/>
+    > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  &nbsp;&nbsp;&nbsp;⚡️ &nbsp;การ [Update](https://www.w3schools.com/python/python_mysql_update.asp) ข้อมูลใน Table  และ การ [Delete](https://www.w3schools.com/python/python_mysql_delete.asp) (Delete != Drop >> Delete คือ ลบข้อมูลในตาราง แต่ Drop คือลบตาราง) ก็ใช้ pattern และ method commit() แบบนี้<br/>
     > ```
     >   create connection 
     >   ...
