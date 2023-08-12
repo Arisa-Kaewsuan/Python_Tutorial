@@ -70,10 +70,44 @@
 <br/>
 
 - &nbsp; PYTHON &nbsp;DATABASE
-  - &nbsp; MySQL &nbsp;:&nbsp;
+  - &nbsp; MySQL
+
+            1.  โหลด API/MySQL Driver ทีชื่อ MySQL Connector แนะนำให้โหลดผ่าน PIP
+                    -  PIP คือ Package management ของ python คือ โมดูลที่รวม library/package ต่างๆไว้ให้เรา install
+                       ได้จากที่เดียว โดยใช้คำสั่ง cmd สะดวกมาก pip จะถูก install มาพร้อมกับตอนที่เราลง python วิธีเช็คว่า
+                       คอมเรามี pip ยังอาจะทำได้โดยการเช็ค version ผ่านคำสั่ง cmd : pip --version
+                ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่ง
+    > ```python -m pip install mysal-connector-python``` <br/>
+    
+            2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
+                2.1  import คลาส mysql.connector ที่เรา install เมื่อกี้มา เพื่อที่จะสามารถใช้ คำสั่งต่างๆ(method) ภายในคลาสได้
+    
+                2.2  create connection โดยใช้ method ที่ชื่อ connect เป็น method ที่รับ parameter ดังนี้ host,user,password,
+                     database ดังนั้นเวลาจะใช้ใช้ต้องระบุ parameter พวกนี้
+
+                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน database นั้นด้วยคำสั่ง
+                     SQL ได้แล้ว โดยต้องใช้ method cursor กับ method execute ในการเขียนคำสั่ง SQL
+    > ```ตัวอย่าง : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Create Table ชื่อ customers มี column ชื่อ id เป็น primary key``` <br/>
+    > ```
+    >   import mysql.connector
+    > 
+    >   mydb = mysql.connector.connect(
+    >   host="localhost",
+    >   user="yourusername",
+    >   password="yourpassword",
+    >   database="mydatabase"
+    >   )
+    > 
+    >   mycursor = mydb.cursor()
+    >   mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+    > ```
+    <br/>
+
+  <br/>
+
   - &nbsp; MongoDB &nbsp;:&nbsp;
  
-<br/>
+<br/><br/>
 
 - &nbsp; PYTHON &nbsp;GUI
   - &nbsp; TKinter &nbsp;:&nbsp;
