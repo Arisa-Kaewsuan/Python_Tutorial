@@ -73,20 +73,23 @@
   - &nbsp; MySQL
 
             1.  โหลด API/MySQL Driver ทีชื่อ MySQL Connector แนะนำให้โหลดผ่าน PIP
-                    -  PIP คือ Package management ของ python คือ โมดูลที่รวม library/package ต่างๆไว้ให้เรา install
-                       ได้จากที่เดียว โดยใช้คำสั่ง cmd สะดวกมาก pip จะถูก install มาพร้อมกับตอนที่เราลง python วิธีเช็คว่า
-                       คอมเรามี pip ยังอาจะทำได้โดยการเช็ค version ผ่านคำสั่ง cmd : pip --version
+                    -  PIP คือ Package management ของ python คือ โมดูลที่รวม library/package ต่างๆ
+                       ไว้ให้เรา install ได้จากที่เดียว โดยใช้คำสั่ง cmd สะดวกมาก pip จะถูก install มา
+                       พร้อมกับตอนที่เราลง python วิธีเช็คว่าคอมเรามี pip ยังอาจะทำได้โดยการเช็ค version
+                       ผ่านคำสั่ง cmd : pip --version
                 ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่ง
     > ```python -m pip install mysal-connector-python``` <br/>
     
             2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
-                2.1  import คลาส mysql.connector ที่เรา install เมื่อกี้มา เพื่อที่จะสามารถใช้ คำสั่งต่างๆ(method) ภายในคลาสได้
+                2.1  import คลาส mysql.connector ที่เรา install เมื่อกี้มา เพื่อที่จะสามารถใช้ คำสั่งต่างๆ(method)
+                     ภายในคลาสได้
     
-                2.2  create connection โดยใช้ method ที่ชื่อ connect เป็น method ที่รับ parameter ดังนี้ host,user,password,
-                     database ดังนั้นเวลาจะใช้ใช้ต้องระบุ parameter พวกนี้
+                2.2  create connection โดยใช้ method ที่ชื่อ connect เป็น method ที่รับ parameter ดังนี้
+                     host,user,password,database ดังนั้นเวลาจะใช้ใช้ต้องระบุ parameter พวกนี้
 
-                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน database นั้นด้วยคำสั่ง
-                     SQL ได้แล้ว โดยต้องใช้ method cursor กับ method execute ในการเขียนคำสั่ง SQL
+                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน
+                     database นั้นด้วยคำสั่ง SQL ได้แล้ว โดยต้องใช้ method cursor กับ method execute ใน
+                     การเขียนคำสั่ง SQL
     > ตัวอย่างที่ 1 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ [Create Table](https://www.w3schools.com/python/python_mysql_create_table.asp) ชื่อ customers มี column ชื่อ id เป็น primary key &nbsp;&nbsp;&nbsp;⚡️ &nbsp;การ [Drop Table](https://www.w3schools.com/python/python_mysql_drop_table.asp) และ การ [Create Database](https://www.w3schools.com/python/python_mysql_create_db.asp) ก็ใช้ pattern นี้ <br/>
     > ```
     >   import mysql.connector
