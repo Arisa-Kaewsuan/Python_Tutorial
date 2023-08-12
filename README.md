@@ -103,7 +103,7 @@
     > ```
     <br/>
     
-    > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  &nbsp;&nbsp;&nbsp;### &nbsp;การ Update ข้อมูลใน Table ก็ใช้ pattern และ method commit() แบบนี้<br/>
+    > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  &nbsp;&nbsp;&nbsp;⚡️ &nbsp;การ [Update](https://www.w3schools.com/python/python_mysql_update.asp) ข้อมูลใน Table  และ การ [Delete](https://www.w3schools.com/python/python_mysql_delete.asp) ก็ใช้ pattern และ method commit() แบบนี้<br/>
     > ```
     >   create connection 
     >   ...
