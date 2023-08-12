@@ -77,6 +77,7 @@
                        ไว้ให้เรา install ได้จากที่เดียว โดยใช้คำสั่ง cmd สะดวกมาก pip จะถูก install มา
                        พร้อมกับตอนที่เราลง python วิธีเช็คว่าคอมเรามี pip ยังอาจะทำได้โดยการเช็ค version
                        ผ่านคำสั่ง cmd : pip --version
+    
                 ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่ง
     > ```python -m pip install mysal-connector-python``` <br/>
     
