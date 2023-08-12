@@ -55,7 +55,8 @@
 
 <br/>
 
-- &nbsp; PYTHON &nbsp;OOP
+- &nbsp; PYTHON &nbsp;OOP &nbsp;:&nbsp;<br/>
+  > ควรมีพื้นฐาน OOP รู้ว่า OOP คืออะไร ดียังไง ทำไมควรใช้ OOP ? , การเขียนโปรแกรมแบบ OOP ทำยังไง ใช้อะไร ? --- object(class) / function / inheritance / polymorphism / overriding / overloading คืออะไร ? , เราจะออกแบบโปรแกรมแบบ OOP ได้ยังไง ? , . . . เพราะ concept มันเหมือนกัน แค่ใช้ syntax ที่ต่างกัน [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า Java_OOP]()
   - &nbsp; Function &nbsp;:&nbsp; ```CREATE : def my_function():``` &nbsp;&nbsp; ```เรียกใช้ FUNCTION : my_function()``` 
     
   - &nbsp; Class &nbsp;:&nbsp; ```CREATE : class Person:``` &nbsp;&nbsp; ```CONSTRUCTOR : def __init__(self, name):
@@ -65,13 +66,11 @@
     
   - &nbsp; Polymorphism &nbsp;:&nbsp; 
  
-  - &nbsp; OOP Design &nbsp;:&nbsp; คือ การออกแบบโปรแกรมแบบ OOP ทำยังไง 
- 
 <br/>
 
 - &nbsp; PYTHON &nbsp;DATABASE &nbsp;:&nbsp;<br/>
   > ควรมีพื้นฐาน SQL , รู้ว่าฐานข้อมูลมีกี่แบบ , ออกแบบฐานข้อมูลยังไง , รู้ศัพท์เทคนิคเบื้องต้น , . . . ซึ่งเป็นความรู้พื้นฐานเกี่ยวกับ 
- Database  เพราะ ตรงนี้จะเป็นการพูดถึงการใช้ tool ถ้าไม่มีพื้นฐานจะงง [&nbsp;>>&nbsp;อ่านได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)
+ Database  เพราะ ตรงนี้จะเป็นการพูดถึงการใช้ tool ที่เขียนขึ้นเพื่อให้กลับมาหาข้อมูลได้เร็วเวลาทำโปรเจคแล้วมีจุดที่ลืม จึงเขียนแบบย่อๆ ถ้าไม่มีพื้นฐานมาอ่านตรงนี้อาจจะงง [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)
   - &nbsp; MySQL
 
             1.  โหลด API/MySQL Driver ทีชื่อ MySQL Connector แนะนำให้โหลดผ่าน PIP
