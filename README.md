@@ -157,10 +157,6 @@
 
   - &nbsp; MongoDB &nbsp;:&nbsp;<br/>
     > ควรมีพื้นฐาน รู้ว่า mongoDB คืออะไร , มันเก็บข้อมูลแบบไหน , รู้ศัพท์เกี่ยวกับ mongoDB เพราะมันใช้คำเรียกต่างกันแต่จริงๆก็คืออันเดียวกันกับใน database อื่นๆ เช่น mysql ช่วยให้เราเข้าใจมากขึ้นเวลาใช้งาน [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)<br/>
-    >
-    > วิธีการใช้ mongoDB
-      >- เริ่มจากสมัคร account ในเว็บ mongoDB.com ก่อน
-      >- 
 
             1.  install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม
     > ```python -m pip install pymongo``` <br/>
