@@ -162,6 +162,10 @@
       >- ใช้แบบ cloud database  :  คือการที่เรา remote ไปใช้คอมเครื่องอื่นที่เขาเตรียมไว้ให้ ในนั้นก็จะลงโปรแกรม Database อะไรไว้
       > เราก็ยังจัดการข้อมูล ดูข้อมูลผ่านเว็บได้แต่แบบนี้เราจะสามารถ scale ได้ เพราะ ไม่ได้ใช้เครื่องตัวเอง วันนึงมีคนใช้โปรแกรมเรา
       > มากขึ้น เรามีความต้องการ database ที่ใหญ่ขึ้น ก็สามารถกดไม่กี่คลิ๊ก ทาง mongoDB ก็จัดการให้แล้ว ไม่ต้อง restructure ใหม่
+    >
+    > วิธีการใช้ mongoDB
+      >- เริ่มจากสมัคร account ในเว็บ mongoDB.com ก่อน
+      >- 
 
             1.  install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม
     > ```python -m pip install pymongo``` <br/>
@@ -173,8 +177,7 @@
                 2.2  connect database ด้วยคำสั่ง .MongoClient() กำหนด URL localhost
     > ```myclient = pymongo.MongoClient("mongodb://localhost:27017/")``` <br/>
 
-                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน
-                     database นั้นด้วยคำสั่ง SQL ได้แล้ว
+                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ...
  
 <br/><br/>
 
