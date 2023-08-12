@@ -160,7 +160,7 @@
 
      1. &nbsp; install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม  &nbsp;:&nbsp; <br/>```python -m pip install pymongo``` 
      2. &nbsp; connect database &nbsp;:&nbsp; ```myclient = pymongo.MongoClient("mongodb://localhost:27017/")``` <br/>
-     3. &nbsp; เชื่อมต่อฐานข้อมูลแล้วก็สามารถเขียนคำสั่ง insert / update / find / delete / drop ... ได้  [ดูเพิ่มเติมที่นี่](https://www.w3schools.com/python/python_mongodb_insert.asp)
+     3. &nbsp; เชื่อมต่อฐานข้อมูลแล้วก็สามารถเขียนคำสั่ง insert / update / find / delete / drop ... ได้  [&nbsp;>>&nbsp; ดูเพิ่มเติมที่นี่](https://www.w3schools.com/python/python_mongodb_insert.asp)
  
 <br/><br/>
 
