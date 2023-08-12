@@ -156,7 +156,7 @@
   <br/>
 
   - &nbsp; MongoDB &nbsp;:&nbsp;<br/>
-    > mongoDB เป็นฐานข้อมูลแบบ NoSQL ต่างจาก SQL มันเก็บข้อมูลเป็น JSON มีให้ใช้ 2 แบบ
+    > [mongoDB](https://www.youtube.com/watch?v=VgyEablNJkk) เป็นฐานข้อมูลแบบ NoSQL ต่างจาก SQL มันเก็บข้อมูลเป็น JSON มีให้ใช้ 2 แบบ
       >- ใช้แบบ web database  :  คล้ายๆ mysql-phpmyadmin ที่เราจัดการข้อมูล ดูข้อมูลผ่านเว็บได้
       > 
       >- ใช้แบบ cloud database  :  คือการที่เรา remote ไปใช้คอมเครื่องอื่นที่เขาเตรียมไว้ให้ ในนั้นก็จะลงโปรแกรม Database อะไรไว้
