@@ -80,7 +80,7 @@
                        ผ่านคำสั่ง cmd : pip --version
     
                 ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่ง
-    > ```python -m pip install mysal-connector-python``` <br/>
+    > ```python -m pip install mysql-connector-python``` <br/>
     
             2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
     
