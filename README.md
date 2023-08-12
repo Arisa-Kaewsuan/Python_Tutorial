@@ -73,13 +73,15 @@
  Database  เพราะ ตรงนี้จะเป็นการพูดถึงการใช้ tool ที่เขียนขึ้นเพื่อให้กลับมาหาข้อมูลได้เร็วเวลาทำโปรเจคแล้วมีจุดที่ลืม จึงเขียนแบบย่อๆ ถ้าไม่มีพื้นฐานมาอ่านตรงนี้อาจจะงง [&nbsp;>>&nbsp;อ่านพื้นฐานได้ในหน้า SQL_Exercise](https://github.com/Arisa-Kaewsuan/SQL_Exercises)
   - &nbsp; MySQL
 
-            1.  โหลด API/MySQL Driver ทีชื่อ MySQL Connector แนะนำให้โหลดผ่าน PIP
+            1.  install API/MySQL Driver ที่ใช้กับภาษา python ทีชื่อ MySQL Connector แนะนำให้ install ผ่าน PIP
                     -  PIP คือ Package management ของ python คือ โมดูลที่รวม library/package ต่างๆ
                        ไว้ให้เรา install ได้จากที่เดียว โดยใช้คำสั่ง cmd สะดวกมาก pip จะถูก install มา
                        พร้อมกับตอนที่เราลง python วิธีเช็คว่าคอมเรามี pip ยังอาจะทำได้โดยการเช็ค version
                        ผ่านคำสั่ง cmd : pip --version
     
-                ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่ง
+                ถ้าเช็คแล้วว่ามี pip แล้ว ให้ใช้ pip ช่วย install " MySQL Connector " package ด้วยคำสั่งด้านล่างนี้
+                โดยเปิด cmd >> cd ไปที่ python.exe (มันคือ python cmd ใช้ run คำสั่ง python เพราะ cmd ของ window/mac
+                ปกติรันคำสั่งไพธอนไม่ได้) >>  พิมพ์คำสั่ง
     > ```python -m pip install mysql-connector-python``` <br/>
     
             2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
@@ -153,7 +155,26 @@
 
   <br/>
 
-  - &nbsp; MongoDB &nbsp;:&nbsp;
+  - &nbsp; MongoDB &nbsp;:&nbsp;<br/>
+    > mongoDB เป็นฐานข้อมูลแบบ NoSQL ต่างจาก SQL มันเก็บข้อมูลเป็น JSON มีให้ใช้ 2 แบบ
+      >- ใช้แบบ web database  :  คล้ายๆ mysql-phpmyadmin ที่เราจัดการข้อมูล ดูข้อมูลผ่านเว็บได้
+      > 
+      >- ใช้แบบ cloud database  :  คือการที่เรา remote ไปใช้คอมเครื่องอื่นที่เขาเตรียมไว้ให้ ในนั้นก็จะลงโปรแกรม Database อะไรไว้
+      > เราก็ยังจัดการข้อมูล ดูข้อมูลผ่านเว็บได้แต่แบบนี้เราจะสามารถ scale ได้ เพราะ ไม่ได้ใช้เครื่องตัวเอง วันนึงมีคนใช้โปรแกรมเรา
+      > มากขึ้น เรามีความต้องการ database ที่ใหญ่ขึ้น ก็สามารถกดไม่กี่คลิ๊ก ทาง mongoDB ก็จัดการให้แล้ว ไม่ต้อง restructure ใหม่
+
+            1.  install API/mongoDB Driver ที่ใช้กับภาษา python ทีชื่อ pymongo แนะนำให้ install ผ่าน PIP เหมือนเดิม
+    > ```python -m pip install pymongo``` <br/>
+    
+            2.  เริ่มใช้ได้เลย Algorithm ในการ connnect database จะมีขั้นตอนดังนี้
+                2.1  import คลาส pymongo ที่เรา install เมื่อกี้มา เพื่อที่จะสามารถใช้ คำสั่งต่างๆ(method)
+                     ภายในคลาสได้
+    
+                2.2  connect database ด้วยคำสั่ง .MongoClient() กำหนด URL localhost
+    > ```myclient = pymongo.MongoClient("mongodb://localhost:27017/")``` <br/>
+
+                2.3  ตอนนี้เรา connect database สำเร็จแล้ว ก็สามารถ create read update delete ข้อมูลใน
+                     database นั้นด้วยคำสั่ง SQL ได้แล้ว
  
 <br/><br/>
 
