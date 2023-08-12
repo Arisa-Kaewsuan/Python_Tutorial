@@ -105,15 +105,9 @@
     
     > ตัวอย่างที่ 2 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Insert เพิ่มข้อมูลลง Table ชื่อ customers ใน column name กับ address เพิ่มค่า 3 rows จุดสำคัญของการ Insert คือต้องมีคำสั่ง .commit() เป็นการบอกว่า เรามีการเปลี่ยนแปลงข้อมูลในตาราง ถ้าเปลี่ยนเสร็จมันจะปริ้น was inserted ออกหน้าจอให้เรารู้  <br/>
     > ```
-    >   import mysql.connector
+    >   create connection 
+    >   ...
     > 
-    >   mydb = mysql.connector.connect(
-    >   host="localhost",
-    >   user="yourusername",
-    >   password="yourpassword",
-    >   database="mydatabase"
-    >   )
-    >
     >   mycursor = mydb.cursor()
     >
     >   sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
@@ -124,6 +118,23 @@
     >   mycursor.executemany(sql, val)
     >   mydb.commit()
     >   print(mycursor.rowcount, "was inserted.")
+    > ```
+    <br/>
+
+    > ตัวอย่างที่ 3 : เขียน python เชื่อมต่อฐานข้อมูล MySQL เพื่อ Select ดึงข้อมูลจาก Table ชื่อ customers ที่ address มีค่าเท่ากับ  Yellow Garden 2  ( การใช้ placeholder ช่วยป้องกัน SQL Injection จาก Hacker )  ใช้คำสั่ง .fetchall() เป็นการบอกว่า ให้ดึงข้อมูลทั้งหมดมา  แล้ววน loop แสดงค่าที่ดึงมา  <br/>
+    > ```
+    >   create connection
+    >   ...
+    >
+    >   mycursor = mydb.cursor()
+    > 
+    >   sql = "SELECT * FROM customers WHERE address = %s"
+    >   adr = ("Yellow Garden 2", )
+    > 
+    >   mycursor.execute(sql, adr)
+    >   myresult = mycursor.fetchall()
+    >   for x in myresult:
+    >        print(x)
     > ```
     <br/>
 
